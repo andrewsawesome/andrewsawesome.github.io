@@ -1,0 +1,111 @@
+This is the style Sheet for my website!
+
+
+
+
+p{
+Color:green;
+font-size: 29px
+}
+
+.FreshPi {
+	Color:Orange;
+	font-size:17px;
+}
+
+.TriviaQ {
+color:gray;
+font-size:20.9px;
+}
+
+#ILovePi {
+background-color: blue
+}
+
+#triviaSubmit {
+height: 25px;
+width:100px;
+color:blue;
+background-color: gray; 
+border-radius: 15px
+}
+header {
+height: 35px;
+width:25px;
+border:15px solid green;
+background-color:#e60073
+margin-bottom:10em; 
+}
+footer {
+height: 35px;
+width:25px;
+border:15px solid green;
+background-color:#aef880
+}
+
+.TriviaRocks {
+	height:59px; 
+	width:48px;
+	border:10px solid green;
+}
+.friedpi {
+height:28px; 
+width:28px;
+border:56px 
+}
+.simplycoding {
+font-size: 1em;
+color:#ff944d;
+background-color:#80d4ff
+}
+#navmenu {
+float:left;
+}
+
+
+
+#one {
+	height:125px;
+	width: 125px;
+	background-color:green
+ display: inline-block;
+ position:absolute;
+ z-index:1; 
+    position:fixed;
+    left:25%
+    margin:auto;
+    }
+
+#two {
+height: 125px;
+width: 125px;
+background-color: red
+ display: inline-block; 
+    position:absolute;
+     z-index:2
+     
+     }
+
+#CoachK {
+height:125px;
+width:125px;
+background-color:gray
+display:inline-block;
+position:absolute;
+position:relative;
+top:750px
+}
+
+#lesson6.1 {height:2048px}
+#rightside {
+float:right;
+float: up;
+width:50%;
+}
+
+#leftside {
+width:50%;
+}
+#roku {
+float:right;
+}
