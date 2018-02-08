@@ -1,0 +1,88 @@
+<html> 
+<head>
+<title> Fresh Raspberry Pi</title> 
+<style> 
+
+</style>
+<link type="text/css" rel="stylesheet"  href="main.css" />
+<script>
+function banner(){ 
+var text = confirm("Do  you want to visit the best support page for your Roku product? If so, click ok"); 
+return text; 
+}
+function answer(){
+var radio = document.getElementsByName("trivia"); 
+var selection = false; 
+var message = "Not that much!";
+}//end function answer
+for( var i = 0; i < radio.length; i++)
+document.getElementById("response").innerHTML = message;
+if(radio[i].value == "1st possible answer" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+}
+</script>
+</head> 
+<header>
+<a id="roku" href="https://support.roku.com" onclick="return banner()">
+I'm Andrew-ly Awesome
+<nav>
+<ul id="navmenu">
+<li><a href="reference.html"> cyber security tricks home</a></li>
+<li> cyber security tricks</li>
+<li> <a href="index.html"> home</a></li>
+</ul>
+</nav>
+<body id="ILovePi"> 
+</header>
+<h1>Raspberry Pi 3 Projects</h1>
+<p1>
+<u>It's Radioactive!</u> 
+<i>101 things to do</i> 
+with your 
+<strong>Raspberry Pi 3 Computer</strong>
+<div class=FriedPi></div>
+<ol>
+<div id="leftside">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZYl6hLHr5og?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>"
+</iframe>
+<li class="FreshPi"> Make a Radio!</li>
+<li class="FreshPi">Make a Car!</li>
+<li class="FreshPi">Make a pencil Sharpener!</li>
+<div clas="TriviaRocks">
+<h2>This is reffering to how much I found an Apple 2 For on Ebay</h2>
+<p class="TriviaQ"> What is the cost of an Apple 2 nowadays?</p>
+<form>
+<div class="response">
+
+</div>
+<input type="radio" name= "trivia" value ="1st possible answer"> About $20 <br>
+<input type="radio" name="trivia" value= "2nd Possible Answer"> About $50<br>
+<input type="radio" name="trivia" value="3rd Possible Answer"> About $100<br>
+<input type="radio" name ="trivia" value ="3rd Possible answer"> About $150<br>
+<input id="TriviaSubmit" type = "button"  value="submit" onclick="return answer()">
+</form>
+</div>
+</div>
+<div id="rightside">
+<audio width="400" height="220" controls autoplay>
+<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+Your browser does not support HTML 5 audio.
+</audio> 
+<img src="https://www.raspberrypi.org/app/themes/mind-control/images/home-products-cta__image.png">
+<img src="https://i2.wp.com/cdn.makezine.com/uploads/2014/02/car-computer1.jpg"
+<br>
+</div>
+<center>Andrew Schindler<a href="https://www.google.com">Da Best Search Engine(vroom vroom) </a></center>
+<span class=simplycoding>
+<footer> This website was created By Andrew/Billy Joel Schindler</footer>
+</span>
+</body>
+</html>
