@@ -1,9 +1,7 @@
 #This is the JavaScript file for my Url Shortener#
-var endpoint = "https://www.jsonstore.io/aec0115772482375953d41e0f6c0a280d281ed2132e355d845142ea8aa55dffd"
 
+var endpoint = "https://www.jsonstore.io/89337ad770eb2b5f77506f87e71ce41ec811375afb35f5a66c37b57de5b9c778";
 function getrandom(){
-var random_string =
-Math.random().toString(32).substring(2, 5) +
-Math.random().toString(32).substring(2, 5):
-return random_string()
+    var random_string = Math.random().toString(32).substring(2, 5) + Math.random().toString(32).substring(2, 5);
+    return random_string()
 }
