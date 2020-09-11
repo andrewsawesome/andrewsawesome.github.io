@@ -1,8 +1,6 @@
 <html>
 <title>How to install Linux apps on Chromebook(doesn't work with all chromebooks)</title>
 <h1>How to install Linux apps on Chromebook</h1>
-  <h2>Notice: The embedded websites below have ads. To block these, I recommend Adguard.</h2>
-  <p>You can download Adguard for Chrome <a href="https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg">here</a>, Adguard for Firefox <a href="https://addons.mozilla.org/en-US/firefox/addon/adguard-adblocker/">here</a>, and Adguard for Edge <a href="https://microsoftedge.microsoft.com/addons/detail/adguard-adblocker/pdffkfellgipmhklpdmokmckkkfcopbh">here</a></p>
 <p>This is a tutorial on how linux apps on a chromebook. For this to work, your chromebook must support Linux(Beta).</p>
 <h2>How to check if your computer is compatible with Linux(Beta) and enable it</h2>
 <ol>
@@ -35,6 +33,14 @@
       <li>You should see a folder called DEBS or similar. Run <code>cd/DEBS</code> (or the folder name).</li>
       <li>Run <code>sudo dpkg -I *.deb</code></li>
       <p>You can go to <a href="https://www.aboutchromebooks.com/news/how-to-install-libreoffice-for-linux-on-a-chromebook-after-downloading-it-as-a-tar-gz-file/">this website</a> for more information</p>
-    <h4>.AppImage Apps</h4 style="width:3000px; height=600px;">
-<iframe src="https://beebom.com/install-appimage-programs-on-chromebook/" allowtransparency="true" width="800" height="402" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>    
+    <h4>.AppImage Apps</h4>
+      <ol>
+      <li>Open terminal and run <code>sudo apt-get install nautilus</code></li>
+<li>Move the .AppImage program to the Linux(Beta) folder</li>
+<li>Find the Linux files app(it should look like a stack of filing drawers). Open it.</li>
+      <li>Right click on the .AppImage program and select Properties.</li>
+      <li>Click Permissions, then click the box next to “Allow executing file as program”</li>
+      <li>Double-Click the AppImage program to run it</li>
+<li>For any new apps, just move them into the Linux(Beta)Folder, then double-click on them from within the Linux files app</li>
+    </ol>
     </html>
