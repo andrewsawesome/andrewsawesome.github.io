@@ -24,7 +24,17 @@
     <h4>.deb Apps</h4>
     <p>After locating the folder where the .deb app was saved, select it and select "Open with Linux(Beta)"</p>
     <h4>.deb.tar.gz Apps</h4>
-    <iframe src="https://www.aboutchromebooks.com/news/how-to-install-libreoffice-for-linux-on-a-chromebook-after-downloading-it-as-a-tar-gz-file/" allowtransparency="true" width="800" height="402" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>    
+    <ol>
+      <li>Drag the app to the Linux(Beta) folder</li>
+      <li>Create a folder with the name of your app(inside the Linux folder)</li>
+      <li>Drag your app file into the folder you just created.</li>
+      <li>Open the terminal app</li>
+      <li>Run <code>sudo tar -xf [filename].deb.tar.gz</code>. After typing two or three letters, you can use the tab key to fill in the rest of the filename.</li>
+      <li>Run <code>ls</ocde> to find the folder name for your app</li>
+      <li>Run <code>cd/[FolderName]/</code>, followed by the <code>ls</code> command. Again, you can use the tab key to fill in the folder name after typing a few letters.</li>
+      <li>You should see a folder called DEBS or similar. Run <code>cd/DEBS</code> (or the folder name).</li>
+      <li>Run <code>sudo dpkg -I *.deb</code></li>
+      <p>You can go to <a href="https://www.aboutchromebooks.com/news/how-to-install-libreoffice-for-linux-on-a-chromebook-after-downloading-it-as-a-tar-gz-file/">this website</a> for more information</p>
     <h4>.AppImage Apps</h4 style="width:3000px; height=600px;">
 <iframe src="https://beebom.com/install-appimage-programs-on-chromebook/" allowtransparency="true" width="800" height="402" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>    
     </html>
