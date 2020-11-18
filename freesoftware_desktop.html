@@ -69,11 +69,15 @@
   <h3>1. <a href="https://www.tinyurl.com">TinyURL</a></h3>
   <p>First of all, yes, the TinyURL website has ads. However, using the form below, you can create a TinyURL right from my website. The main standout feature is the ability to create a custom URL without signing up for an account.</p>
   <!--TinyURL Code Start-->
-  <form action="https://tinyurl.com/create.php" method="post" target="_blank">
-    <table align="center" cellpadding="5" bgcolor="#E7E7F7"><tr><td>
-<b>Enter a long URL to make <a href="https://tinyurl.com">tiny</a>:</b><br/>
-<input type="text" name="url" size="30"><input type="submit" name="submit" value="Make TinyURL!">
-</td></tr></table>
+  <form action="https://tinyurl.com/create.php" method="get" name="f" id="f" class="create-form">
+    <b>Enter a long URL to make tiny:</b><br>
+    <input type="hidden" id="source" name="source" value="indexpage">
+    <input type="text" id="url" name="url" value="">
+    <input type="submit" value="Make TinyURL!">
+    <hr>Custom alias (optional):<br>
+    <tt class="basecontent">https://tinyurl.com/</tt>
+    <input type="text" id="alias" name="alias" value="" maxlength="30"><br>
+    <small>May contain letters, numbers, and dashes.</small>
 </form>
   <!--TinyURL Code Stop-->
   <h3>2. <a href="https://www.rebrandly.com">Rebrandly</a></h3>
