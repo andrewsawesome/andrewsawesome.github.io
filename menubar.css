@@ -10,7 +10,7 @@
   float: left;
 }
 
-li a {
+.MenubarStart li a {
   display: block;
   color: white;
   text-align: center;
